@@ -1,0 +1,21 @@
+.account {
+  flex: 1;
+  display: flex;
+  min-height: 100vh;
+  word-break: break-all;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #5cdb95;
+}
+
+.fa-arrow-left {
+  color: #5cdb95;
+}
+
+.account > button {
+  background-color: #05386b;
+}
+
+.account > button:hover {
+  background-color: #4c7eb0;
+}

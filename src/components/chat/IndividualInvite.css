@@ -1,0 +1,35 @@
+.individualinvite {
+  display: flex;
+}
+
+.individual {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  word-break: break-all;
+}
+
+.individual > button {
+  margin-left: auto;
+  background-color: #3774e6;
+  border: 1px solid #2f59a7;
+  outline: none;
+  padding: 10px;
+  border-radius: 7px;
+  font-weight: 700;
+  min-width: 100px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.individual > button:hover {
+  background-color: #4c7eb0;
+}
+
+@media (max-width: 850px) {
+  .individual {
+    width: 90%;
+    display: block;
+  }
+}

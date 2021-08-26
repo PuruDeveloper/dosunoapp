@@ -1,0 +1,8 @@
+.addnewmember {
+  padding: 30px;
+  max-height: 100vh;
+  background: #2f68d0;
+  width: 100vw;
+  overflow: scroll;
+  background-color: #5cdb95;
+}

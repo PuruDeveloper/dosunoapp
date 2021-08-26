@@ -1,0 +1,75 @@
+.accountdetails {
+  display: flex;
+}
+
+.accountdetails__left {
+  flex: 0.5;
+}
+
+.user__details {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.user__details > button:hover {
+  background-color: #4c7eb0;
+}
+
+.user__details > button {
+  margin-left: auto;
+  background-color: #05386b;
+}
+
+.invitebuttons > button {
+  background-color: #05386b;
+}
+
+.invitebuttons > button:hover {
+  background-color: #4c7eb0;
+}
+.change__button {
+  width: 228px !important;
+  max-height: 50px;
+}
+.user__detail {
+  margin: 20px;
+}
+
+.user__image img {
+  border-radius: 9999px;
+  margin-top: 20px;
+}
+
+.accountdetails__right {
+  padding: 30px;
+  flex: 0.5;
+}
+
+.roominvites {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h4 {
+  color: #05386b;
+}
+h2 {
+  color: #eaf0e2;
+}
+
+@media (max-width: 1300px) {
+  .user__details {
+    display: block;
+  }
+  .accountdetails {
+    display: block;
+  }
+}
+
+@media (max-width: 700px) {
+  .roominvites {
+    display: block;
+  }
+}
